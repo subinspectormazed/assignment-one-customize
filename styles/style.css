@@ -29,7 +29,7 @@ body {
   border-radius: 15px;
   margin: 50px auto 0px auto;
   background-repeat: no-repeat;
-  margin-bottom: 140px;
+  margin-bottom: 100px;
 }
 
 /* nav style added */
@@ -147,7 +147,7 @@ nav a {
 /* section one style added */
 .section-one{
   text-align: center;
-  margin: 140px;
+  margin: 100px;
 }
 .offer-title{
 color: #f5ae09;
@@ -173,4 +173,106 @@ color:#f5ae09;
 }
 .offer-image {
   width: 802px;
+}
+/* section two styles added */
+.section-two{
+  width: 1320px;
+  height: 600px;
+  background-image: url("../resourcs/Vectorrr.png");
+  background-size: cover;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 130px 138px 0px 126px; */
+  margin: 0 auto 100px;
+}
+.section-two-title{
+color: #FFF;
+font-family: "Open Sans", sans-serif;
+font-size: 64px;;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+max-width: 642px;
+}
+.section-two-para{
+color: #F9F9F9;
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+max-width: 697px;
+}
+.get-start{
+color: #FFF;
+font-family: "Open Sans", sans-serif;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+text-decoration: none;
+}
+/* section three styles added */
+.section-three{
+margin: 0 auto 100px auto;
+width: 1320px;
+height: 482px;
+border-radius: 15px;
+background-image: linear-gradient(180deg, rgba(255, 153, 0, 0.1) 0%, rgba(252, 252, 252, 0) 100%);
+text-align: center;
+position: relative;
+}
+.section-three-text{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px; 
+position: absolute;
+left: 25%;
+top: 50%;
+}
+.place {
+  color: #f5ae09;
+}
+/* section four styles added */
+.section-six{
+  width: 1300px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.image-gallary img{
+  padding: 2px;
+}
+.six-subtitle{
+color: #f5ae09;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-weight: 500;
+}
+.six-title{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.six-para{
+  max-width: 896px;
+color: rgba(218, 218, 218, 0.6);
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+/* section seven style added */
+.section-seven{
+  margin: 0 auto;
+  margin-bottom: 100px;
+width: 1320px;
+height: 616px;
+border-radius: 15px;
+background-color: rgb(49, 49, 49) ;
+
 }
