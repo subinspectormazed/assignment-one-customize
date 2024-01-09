@@ -238,7 +238,7 @@ nav a {
   line-height: 56px;
   position: absolute;
   left: 25%;
-  top: 50%;
+  top: 40%;
 }
 .place {
   color: #f5ae09;
@@ -294,6 +294,46 @@ nav a {
 .year {
   color: #f5ae09;
 }
+/* section five styles added */
+.section-five-container {
+  margin: 0 auto;
+  width: 1300px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 15px;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.five-text {
+  text-align: center;
+}
+.five-subtitle {
+  color: #f5ae09;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+.five-title {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.five-para {
+  color: rgba(229, 229, 229, 0.6);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 1068px;
+  margin-left: 100px;
+}
+.five-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 /* section six styles added */
 .section-six {
   width: 1300px;
