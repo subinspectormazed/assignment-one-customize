@@ -29,6 +29,7 @@ body {
   border-radius: 15px;
   margin: 50px auto 0px auto;
   background-repeat: no-repeat;
+  margin-bottom: 140px;
 }
 
 /* nav style added */
@@ -142,4 +143,34 @@ nav a {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   border: 0;
+}
+/* section one style added */
+.section-one{
+  text-align: center;
+  margin: 140px;
+}
+.offer-title{
+color: #f5ae09;
+font-family: "Open Sans", sans-serif;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.offer-sub-title{
+text-transform: uppercase;
+font-family: "Open Sans", sans-serif;
+font-size: 24px;
+font-weight: 500;
+color:#f5ae09;
+}
+.catagories {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+}
+.offer-image {
+  width: 802px;
 }
