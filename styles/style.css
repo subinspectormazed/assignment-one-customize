@@ -9,15 +9,26 @@ body {
   background-color: #242424;
   margin: 0 auto;
 }
+/* common styles added */
+.btn-primary{
+  padding: 10px 20px;
+  background-color: #f5ae09 ;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
 
+}
 /* header style added */
 .header {
   background-image: url(../resourcs/banner.jpg);
   width: 1320px;
   height: 600px;
-  background-size: contain;
+  background-size: cover;
   border-radius: 15px;
   margin: 50px auto 0px auto;
+  background-repeat: no-repeat;
 }
 
 /* nav style added */
@@ -25,7 +36,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 50px 0px 50px;
+  padding: 30px 50px 0px 50px;
 }
 nav h3 {
   font-family: "Open Sans", sans-serif;
@@ -33,15 +44,19 @@ nav h3 {
   color: #f5ae09;
   font-weight: 700;
 }
-nav > ul {
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  color: white;
-  font-weight: 700;
+nav > ul{
   display: flex;
+  align-items: center;
 }
-
 nav li {
   list-style: none;
   margin-right: 20px;
 }
+nav a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* ======================== */
