@@ -11,14 +11,14 @@ body {
 }
 /* common styles added */
 .btn-primary{
-  padding: 10px 20px;
+  padding: 7px 14px;
   background-color: #f5ae09 ;
   border-radius: 50px;
   color: white;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-
+  border: 0;
 }
 /* header style added */
 .header {
@@ -60,3 +60,86 @@ nav a {
   text-decoration: none;
 }
 /* ======================== */
+
+.bn-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+  color: #f5ae09;
+  font-weight: 400;
+  max-width: 200px;
+  line-height: 1;
+  letter-spacing: 10px;
+}
+.friday{
+  color: white;
+}
+.bn-subtitle-one{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+.bn-subtitle-two{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color:#f5ae09;
+  font-weight: 400;
+}
+.all-dot{
+  display: flex;
+}
+.dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 10px;
+}
+.bn-para {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+  max-width: 400px;
+}
+.get-start {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+.banner-main-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 200px;
+}
+.offer {
+  text-align: center;
+}
+.save-up-to{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+.discount {
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+  color: white;
+  font-weight: 400;
+  max-width: 200px;
+  line-height: 1;
+  letter-spacing: 10px;
+}
+.btn-discount{
+  padding: 7px 14px;
+  background-color: #f5ae09 ;
+  border-radius: 50px;
+  color: black;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  border: 0;
+}
