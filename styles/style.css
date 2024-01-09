@@ -328,3 +328,42 @@ nav a {
   font-weight: 600;
   text-transform: capitalize;
 }
+/* footer styles added */
+.footer-section {
+  width: 1600px;
+  height: 609px;
+  background-color: rgb(25, 25, 25);
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.address-phone {
+  display: flex;
+  color: rgb(206, 206, 206);
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 150px 100px 0px 100px;
+}
+.social-icon {
+  text-align: center;
+}
+.social-icon img {
+  padding: 20px;
+}
+.reserved {
+  display: flex;
+  color: rgb(206, 206, 206);
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 0px 100px 0px 100px;
+}
+hr.new1 {
+  border: 0.5px solid rgb(36, 36, 36);
+  text-align: center;
+  margin: 0px 100px 0px 100px;
+}
