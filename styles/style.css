@@ -22,7 +22,7 @@ body {
 }
 /* header style added */
 .header {
-  background-image: url(../resourcs/banner.jpg);
+  background-image: url("../resourcs/banner.jpg");
   width: 1320px;
   height: 600px;
   background-size: cover;
